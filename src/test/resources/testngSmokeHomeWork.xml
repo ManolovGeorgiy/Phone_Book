@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SmokeHomeWorkTest" verbose="1">
+    <test name="SmokeHomeWorkTest">
+        <classes>
+            <class name="e2e.CreateNewUserTest">
+            </class>
+            <class name="e2e.newUserWithEditContactAndDelete">
+            </class>
+        </classes>
+    </test>
+</suite>

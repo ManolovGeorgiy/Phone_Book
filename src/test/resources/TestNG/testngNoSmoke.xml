@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="testNoSmoke" verbose="1">
+    <test name="NoSmokeTest">
+        <classes>
+            <class name="e2e.LoginTest">
+                <methods>
+                    <include name="userCannotLoginWithInvalidEmail"/><include name="userCanLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

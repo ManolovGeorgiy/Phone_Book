@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="testSmoke" verbose="1">
+    <test name="SmokeTest">
+        <classes>
+            <class name="integration.ContactApiTest"/>
+            <class name="integration.AddressApiTest"/>
+            <class name="integration.EmailApiTest"/>
+            <class name="integration.PhoneApiTest"/>
+        </classes>
+    </test>
+</suite>

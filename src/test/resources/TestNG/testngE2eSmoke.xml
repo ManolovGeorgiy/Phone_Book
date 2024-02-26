@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="testE2eSmoke" verbose="1">
+    <test name="SmokeTestE2e">
+        <classes>
+            <class name="e2e.UserCanWorkWithPhoneTest">
+                <methods>
+                    <include name="workWithPhoneForNewContact"/>
+                </methods>
+            </class>
+            <class name="e2e.UserCanWorkWithEmailTest">
+                <methods>
+                    <include name="workWithEmailForNewContact"/>
+                </methods>
+            </class>
+            <class name="e2e.UserCanWorkWithAddressTest">
+                <methods>
+                    <include name="workWithAddressForNewContact"/>
+                </methods>
+            </class>
+            <class name="e2e.UserCanWorkWithContactTest">
+                <methods>
+                    <include name="workWithNewContact"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
